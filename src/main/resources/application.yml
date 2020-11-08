@@ -5,12 +5,9 @@ spring:
     - dev
   application:
     name: admin-service
-  cloud:
-    config:
-      uri: http://localhost:8888
   security:
     user:
-      password: P@ssword1
+      password: P@ssword1@
 
 
 logging:
